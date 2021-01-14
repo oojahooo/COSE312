@@ -1,0 +1,589 @@
+(standard input):L -> ( WS LC ) .
+(standard input):LC -> LC WS' M .
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):WS' -> WS'   .
+(standard input):WS' -> WS' \n .
+(standard input):L -> ( . WS LC )
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> ( WS . LC )
+(standard input):LC -> . LC WS' M
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS ID . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS L . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS STR . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> ( WS LC . )
+(standard input):LC -> LC . WS' M
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS ID WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS INT WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS L WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS STR WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):WS' -> WS'   .
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):WS' -> WS' \n .
+(standard input):L -> ( . WS LC )
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):L -> ( WS . LC )
+(standard input):LC -> . LC WS' M
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( WS . LC )
+(standard input):LC -> . LC WS' M
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( WS LC . )
+(standard input):LC -> LC . WS' M
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( WS . LC )
+(standard input):LC -> . LC WS' M
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> WS ID . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):M -> WS ID WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS L . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):M -> WS L WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS STR . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):M -> WS STR WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( WS LC . )
+(standard input):LC -> LC . WS' M
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( WS LC ) .
+(standard input):L -> ( WS LC . )
+(standard input):LC -> LC . WS' M
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):WS' -> WS'   .
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):WS' -> WS' \n .
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):LC -> LC WS' M .
+(standard input):LC -> LC WS' . M
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):} --WS-> { 
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> . WS ID WS
+(standard input):M -> . WS INT WS
+(standard input):M -> . WS L WS
+(standard input):M -> . WS STR WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS ID WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> WS INT WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> WS L WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> WS STR WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):} --WS-> { 
+(standard input):M -> WS INT WS .
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> ( . WS LC )
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS ID . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS INT . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS L . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):M -> WS STR . WS
+(standard input):WS -> .
+(standard input):WS -> . WS WS'
+(standard input):L -> . ( WS LC )
+(standard input):M -> WS . ID WS
+(standard input):M -> WS . INT WS
+(standard input):M -> WS . L WS
+(standard input):M -> WS . STR WS
+(standard input):WS -> WS . WS'
+(standard input):WS' -> . WS'  
+(standard input):WS' -> . WS' \n
+(standard input):} --WS'-> { 
+(standard input):WS -> WS WS' .
+(standard input):WS' -> WS' .  
+(standard input):WS' -> WS' . \n
