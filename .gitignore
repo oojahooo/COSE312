@@ -1,0 +1,9 @@
+build
+_build
+_tags
+*.mli
+*.native
+*.cmi
+*.cmo
+*.txt
+*.s
